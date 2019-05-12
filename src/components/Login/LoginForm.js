@@ -13,7 +13,7 @@ export default class LoginForm extends Component {
         <TextInput 
         style={styles.textInput}
         placeholder='Username or Email'
-        placeholderTextColor='rgba(225, 225, 225, 0.5)'
+        placeholderTextColor='rgba(225, 225, 225, 0.6)'
         returnKeyType= 'next'
         onSubmitEditing= {() => this.passwordInput.focus()}
         keyboardType='email-address'
@@ -21,7 +21,7 @@ export default class LoginForm extends Component {
         <TextInput 
         style={styles.textInput}
         placeholder='Password'
-        placeholderTextColor='rgba(225, 225, 225, 0.5)'
+        placeholderTextColor='rgba(225, 225, 225, 0.6)'
         secureTextEntry
         returnKeyType='send'
         ref={(input)=>this.passwordInput=input}
